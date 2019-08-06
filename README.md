@@ -14,7 +14,8 @@ example usage:
 In a terminal enter the following:python "ARW_to_HDF5.py" "file/path/to/file.ARW"  
 for example:python "ARW_to_HDF5.py" "TCB02521.ARW"  
 
-ARW_to_HDF5.py - will convert an input ARW file into a HDF5 file while maintining all raw data values  
+ARW_to_HDF5.py - will convert an input ARW file into a HDF5 file while maintining all raw data values 
+
 ARW_to_TIFF.py - will convert an input ARW file into a TIFF file while maintining all raw data values  
 
 HDF5_viewer.py - allows you to view the histograms and a preview image from an HDF5 file, has a stretch_percentage parameter in the main() function that can be modified as desired (see*). While the HDF5 file maintians the true raw sensor values, the image preview is scaled between 0 and 255.  
